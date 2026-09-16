@@ -1,7 +1,9 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
-import { TicketStatus } from '../enums/ticket-status.enum';
-import { Note, NoteSchema } from './note.schema';
+// import { TicketStatus } from '../enums/ticket-status.enum';
+import { Note, NoteSchema } from './note.schema.js';
+import { TicketStatus } from '../enums/ticket-status.enum.js';
+
 
 export type TicketDocument = Ticket & Document;
 
