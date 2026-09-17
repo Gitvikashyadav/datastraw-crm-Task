@@ -29,7 +29,7 @@ async function bootstrap() {
   });
 
   const port = configService.get<number>('port');
-  await app.listen(port||3000);
+  await app.listen(port||3002);
   Logger.log(`🚀 Datastraw CRM API running on http://localhost:${port}`, 'Bootstrap');
 }
 

@@ -1,0 +1,52 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #f6f7f9;
+}
+
+body {
+  color: #171a21;
+}
+
+:focus-visible {
+  outline: 2px solid #3348b3;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+} */ 
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #f4f5f8;
+}
+
+body {
+  color: #12141c;
+}
+
+:focus-visible {
+  outline: 2px solid #2f3fa8;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

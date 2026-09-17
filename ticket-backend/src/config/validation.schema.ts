@@ -23,7 +23,7 @@ export const validationSchema = Joi.object({
     .valid('development', 'production', 'test')
     .default('development'),
 
-  PORT: Joi.number().default(3000),
+  PORT: Joi.number().default(3002),
 
   CORS_ORIGIN: Joi.string().default('*'),
 
